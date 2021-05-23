@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJEMPLO 1 - HTML</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
     <!-- incia el header -->
     <header>
-        <div>
+        <div class="contenedor">
             <div>
                 <nav>
                     <a href="#">Acerca de</a>
@@ -17,10 +22,10 @@
                     <a href="#">Contactanos</a>
                 </nav>
             </div>
-            <div>
-                <div>
-                    <h1>Joseph Sophia Iguaro Rodas</h1>
-                    <h2>Especialista en TI</h2>
+            <div class="contenedortexto">
+                <div class="texto">
+                    <h1 class="nombre">Joseph Sophia Iguaro Rodas</h1>
+                    <h2 class="nombreyprofesion">Especialista en TI</h2>
                 </div>
             </div>
         </div>
@@ -28,101 +33,101 @@
     </header>
     <!-- fin de header -->
     <!-- Inicia la seccion principal -->
-    <section>
+    <section class="principal">
         <!-- inicia la seccion acerca de -->
-        <section>
-            <div>
+        <section class="acercade">
+            <div class="foto">
                 <img src="img/personal.jpg" alt="Joseph Sophia Iguaro Rodas">
             </div>
-            <div>
-                <h3>Acerca de</h3>
+            <div class="texto">
+                <h3 class="titulo">Acerca de</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam expedita ad eum natus ab voluptatum consectetur quibusdam itaque assumenda enim, iste molestias veritatis delectus nulla qui officia deserunt nihil nobis?</p>
             </div>
 
         </section>
         <!-- fin de la seccion acerca de -->
         <!-- inicia la seccion trabajos -->
-        <section>
-            <div>
-                <h3>Trabajos</h3>
-                <div>
-                    <div>
-                        <div>
+        <section class="trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedortrabajos"> 
+                    <div class="trabajo">
+                        <div class="imagen">
                             <img src="img/trabajo1.jpg" alt="trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem Impsum</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Impsum</p>
+                            <p class="categoria">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="trabajo">
+                        <div class="imagen">
                             <img src="img/trabajo2.jpg" alt="trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem Impsum</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Impsum</p>
+                            <p class="categoria">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="trabajo">
+                        <div class="imagen">
                             <img src="img/trabajo3.jpg" alt="trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem Impsum</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Impsum</p>
+                            <p class="categoria">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="trabajo">
+                        <div class="imagen">
                             <img src="img/trabajo4.jpg" alt="trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem Impsum</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Impsum</p>
+                            <p class="categoria">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="trabajo">
+                        <div class="imagen">
                             <img src="img/trabajo5.jpg" alt="trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem Impsum</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Impsum</p>
+                            <p class="categoria">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="trabajo">
+                        <div class="imagen">
                             <img src="img/trabajo6.jpg" alt="trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem Impsum</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Impsum</p>
+                            <p class="categoria">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="trabajo">
+                        <div class="imagen">
                             <img src="img/trabajo7.jpg" alt="trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem Impsum</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Impsum</p>
+                            <p class="categoria">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="trabajo">
+                        <div class="imagen">
                             <img src="img/trabajo8.jpg" alt="trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem Impsum</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Impsum</p>
+                            <p class="categoria">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
@@ -135,9 +140,9 @@
     <!-- fin de la seccion principal -->
     <!-- incia el footer -->
     <footer>
-        <div>
-            <h3>contactanos</h3>
-            <form>
+        <div class="contactanos">
+            <h3 class="titulo">contactanos</h3>
+            <form class="formulario">
                 <input type="text" placeholder="Nombres y Apellidos" required>
                 <input type="email" placeholder="correo" required>
                 <textarea placeholder="Mensaje"></textarea>
@@ -146,13 +151,13 @@
             </form>
 
         </div>
-        <section>
-            <div>
-                <a href="#"><i></i></a>
-                <a href="#"><i></i></a>
-                <a href="#"><i></i></a>
-                <a href="#"><i></i></a>
-                <a href="#"><i></i></a>
+        <section class="redessociales">
+            <div class="contenedor">
+                <a href="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="instagram"><i  class="fa fa-instagram"></i></a>
+                <a href="youtube"><i  class="fa fa-youtube"></i></a>
+                <a href="twitter"><i  class="fa fa-twitter"></i></a>
+                <a href="github"><i  class="fa fa-github"></i></a>
             </div>
         </section>
 
